@@ -1,5 +1,5 @@
 ## CLI Arguments
-Usage: `hasher [-h] [-l] [-n LENGTH] [-f PATH] [-v] algorithm ...`
+Usage: `hasher [-h] [-l] [-n LENGTH] [-f PATH] [-v] <algorithm> ...`
 
 | Argument                  | Description                                                      |
 | ------------------------- | ---------------------------------------------------------------- |
