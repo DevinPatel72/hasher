@@ -1,4 +1,5 @@
 ## CLI Arguments
+Usage: `hasher [-h] [-l] [-n LENGTH] [-f PATH] [-v] [algorithm] ...`
 
 | Argument                  | Description                                                      |
 | ------------------------- | ---------------------------------------------------------------- |
@@ -7,7 +8,7 @@
 | `-f`, `--file PATH`       | Hash the contents of a file instead of a string preimage.        |
 | `-v`, `--verbose`         | Enable verbose output.                                           |
 | `algorithm`               | Hashing algorithm to use. Use `-l` to list available options.    |
-| `preimage`                | Remaining arguments joined together to form the digest preimage. |
+| `...`                | Remaining arguments joined together to form the digest preimage. |
 
 ## Digest Algorithms
 
